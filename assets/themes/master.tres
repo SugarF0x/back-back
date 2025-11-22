@@ -1,4 +1,7 @@
-[gd_resource type="Theme" load_steps=11 format=3 uid="uid://qp1cqhwcykxe"]
+[gd_resource type="Theme" load_steps=13 format=3 uid="uid://qp1cqhwcykxe"]
+
+[ext_resource type="FontFile" uid="uid://ckhq0wt1hrg2w" path="res://assets/fonts/Roboto-Medium.ttf" id="1_mngea"]
+[ext_resource type="FontFile" uid="uid://bygpyjkjm203q" path="res://assets/fonts/Roboto-Bold.ttf" id="2_lddxb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fjsrx"]
 
@@ -86,6 +89,11 @@ Button/styles/focus = SubResource("StyleBoxFlat_s56qq")
 Button/styles/hover = SubResource("StyleBoxFlat_mngea")
 Button/styles/normal = SubResource("StyleBoxFlat_lddxb")
 Button/styles/pressed = SubResource("StyleBoxFlat_41juj")
+Label/font_sizes/font_size = 18
+Label/fonts/font = ExtResource("1_mngea")
+LabelHeading5/base_type = &"Label"
+LabelHeading5/font_sizes/font_size = 24
+LabelHeading5/fonts/font = ExtResource("2_lddxb")
 SecondaryButton/base_type = &"Button"
 SecondaryButton/colors/font_color = Color(0.99607843, 0.9882353, 0.9764706, 1)
 SecondaryButton/styles/disabled = SubResource("StyleBoxFlat_uh328")
