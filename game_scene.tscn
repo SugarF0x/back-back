@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbl8daw2tdtmp"]
+
+[ext_resource type="Texture2D" uid="uid://nlv0tukkjg8o" path="res://assets/images/background/pattern.svg" id="1_po0ka"]
+[ext_resource type="Texture2D" uid="uid://bs7agmvpx5v88" path="res://assets/images/background/image.svg" id="2_v1wow"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mixcd"]
+bg_color = Color(0.011764706, 0.18039216, 0.21568628, 1)
+
+[node name="GameScene" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_mixcd")
+
+[node name="PatternTextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_po0ka")
+
+[node name="ImageTextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+size_flags_vertical = 8
+texture = ExtResource("2_v1wow")
+expand_mode = 4
