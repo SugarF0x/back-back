@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://cbl8daw2tdtmp"]
+[gd_scene load_steps=5 format=3 uid="uid://cbl8daw2tdtmp"]
 
 [ext_resource type="Texture2D" uid="uid://nlv0tukkjg8o" path="res://assets/images/background/pattern.svg" id="1_po0ka"]
 [ext_resource type="Texture2D" uid="uid://bs7agmvpx5v88" path="res://assets/images/background/image.svg" id="2_v1wow"]
+[ext_resource type="PackedScene" uid="uid://0dov1wg01s5t" path="res://views/pre_stage.tscn" id="3_v1wow"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mixcd"]
 bg_color = Color(0.011764706, 0.18039216, 0.21568628, 1)
@@ -23,3 +24,6 @@ layout_mode = 2
 size_flags_vertical = 8
 texture = ExtResource("2_v1wow")
 expand_mode = 4
+
+[node name="PreStage" parent="." instance=ExtResource("3_v1wow")]
+layout_mode = 2
