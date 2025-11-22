@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg6xr40af7x8l"]
+
+[ext_resource type="Script" uid="uid://55ctx4g5qw3q" path="res://components/pre_stage_instructions/pre_stage_instructions.gd" id="1_h7agj"]
+[ext_resource type="Texture2D" uid="uid://carvowebnrhb6" path="res://components/pre_stage_instructions/assets/1-back.svg" id="2_axruw"]
+
+[node name="PreStageInstructions" type="VBoxContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 146.0
+grow_horizontal = 2
+theme_override_constants/separation = 16
+script = ExtResource("1_h7agj")
+
+[node name="InstructionsTextureRect" type="TextureRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2_axruw")
+expand_mode = 5
+
+[node name="TextContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="TextContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"LabelHeading5"
+text = "This game will be 1-back"
+horizontal_alignment = 1
+
+[node name="BodyLabel" type="Label" parent="TextContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 23)
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Decide if the rock matches the one that came before it."
+horizontal_alignment = 1
+autowrap_mode = 2
