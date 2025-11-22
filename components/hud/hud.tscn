@@ -1,0 +1,67 @@
+[gd_scene load_steps=6 format=3 uid="uid://ditkjog8ofn4m"]
+
+[ext_resource type="Script" uid="uid://bqp3lpueun345" path="res://components/hud/hud.gd" id="1_p67qi"]
+[ext_resource type="Theme" uid="uid://bo5etptewu2fy" path="res://components/hud/assets/hud.tres" id="2_w10xe"]
+[ext_resource type="Texture2D" uid="uid://dk0w7b8ltsygd" path="res://components/hud/assets/pause.svg" id="3_sv0wr"]
+[ext_resource type="PackedScene" uid="uid://cmm7irfcj524m" path="res://composables/button_animations.tscn" id="4_sv0wr"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_guyy7"]
+
+[node name="Hud" type="PanelContainer"]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 8.0
+grow_horizontal = 2
+theme = ExtResource("2_w10xe")
+theme_override_styles/panel = SubResource("StyleBoxEmpty_guyy7")
+script = ExtResource("1_p67qi")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 28
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 44
+theme_override_constants/margin_right = 16
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="ProgressBar" type="ProgressBar" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(123, 12)
+layout_mode = 2
+size_flags_vertical = 4
+max_value = 1.0
+value = 0.9
+show_percentage = false
+
+[node name="MultiplierLabel" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "x4"
+
+[node name="ScoreLabel" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "625"
+horizontal_alignment = 2
+
+[node name="PauseButton" type="Button" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(56, 56)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+icon = ExtResource("3_sv0wr")
+icon_alignment = 1
+
+[node name="ButtonAnimations" parent="PauseButton" instance=ExtResource("4_sv0wr")]

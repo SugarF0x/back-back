@@ -1,0 +1,57 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://bo5etptewu2fy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yslvq"]
+bg_color = Color(0.15686275, 0.43529412, 0.49411765, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.011764706, 0.18039216, 0.21568628, 1)
+corner_radius_top_left = 28
+corner_radius_top_right = 28
+corner_radius_bottom_right = 28
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6ny1r"]
+bg_color = Color(0.09019608, 0.3372549, 0.3882353, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.15686275, 0.43529412, 0.49411765, 1)
+corner_radius_top_right = 18
+corner_radius_bottom_right = 18
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1j62c"]
+bg_color = Color(0.011764706, 0.18039216, 0.21568628, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.15686275, 0.43529412, 0.49411765, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2gbt7"]
+bg_color = Color(0.99607843, 0.9882353, 0.9764706, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.8, 0.8, 0.8, 0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[resource]
+Button/styles/disabled = SubResource("StyleBoxFlat_yslvq")
+Button/styles/focus = SubResource("StyleBoxFlat_yslvq")
+Button/styles/hover = SubResource("StyleBoxFlat_yslvq")
+Button/styles/normal = SubResource("StyleBoxFlat_yslvq")
+Button/styles/pressed = SubResource("StyleBoxFlat_yslvq")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_6ny1r")
+ProgressBar/styles/background = SubResource("StyleBoxFlat_1j62c")
+ProgressBar/styles/fill = SubResource("StyleBoxFlat_2gbt7")
