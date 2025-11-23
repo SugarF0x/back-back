@@ -1,0 +1,27 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M110 70C110 92.0914 92.0914 110 70 110C47.9086 110 30 92.0914 30 70C30 47.9086 47.9086 30 70 30C92.0914 30 110 47.9086 110 70Z" fill="#00B594"/>
+<g opacity="0.5">
+<circle cx="101" cy="75" r="3" transform="rotate(-90 101 75)" fill="black"/>
+<circle cx="101" cy="84" r="3" transform="rotate(-90 101 84)" fill="black"/>
+<circle cx="92" cy="75" r="3" transform="rotate(-90 92 75)" fill="black"/>
+<circle cx="92" cy="57" r="3" transform="rotate(-90 92 57)" fill="black"/>
+<circle cx="92" cy="48" r="3" transform="rotate(-90 92 48)" fill="black"/>
+<path d="M101 45L102.851 50.361C102.341 50.7613 101.698 51 101 51C99.3431 51 98 49.6569 98 48C98 46.3431 99.3431 45 101 45Z" fill="black"/>
+<path d="M95 39C95 40.6569 93.6569 42 92 42C90.3431 42 89 40.6569 89 39C89 38.2316 89.2889 37.5308 89.7639 37L95 39Z" fill="black"/>
+<circle cx="92" cy="66" r="3" transform="rotate(-90 92 66)" fill="black"/>
+<circle cx="101" cy="66" r="3" transform="rotate(-90 101 66)" fill="black"/>
+<circle cx="101" cy="57" r="3" transform="rotate(-90 101 57)" fill="black"/>
+<circle cx="83" cy="57" r="3" transform="rotate(-90 83 57)" fill="black"/>
+<circle cx="74" cy="57" r="3" transform="rotate(-90 74 57)" fill="black"/>
+<circle cx="83" cy="48" r="3" transform="rotate(-90 83 48)" fill="black"/>
+<circle cx="74" cy="48" r="3" transform="rotate(-90 74 48)" fill="black"/>
+<circle cx="65" cy="48" r="3" transform="rotate(-90 65 48)" fill="black"/>
+<circle cx="83" cy="39" r="3" transform="rotate(-90 83 39)" fill="black"/>
+<circle cx="74" cy="39" r="3" transform="rotate(-90 74 39)" fill="black"/>
+<circle cx="65" cy="39" r="3" transform="rotate(-90 65 39)" fill="black"/>
+<circle cx="56" cy="39" r="3" transform="rotate(-90 56 39)" fill="black"/>
+<circle cx="83" cy="66" r="3" transform="rotate(-90 83 66)" fill="black"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M70 107C90.4345 107 107 90.4345 107 70C107 49.5655 90.4345 33 70 33C49.5655 33 33 49.5655 33 70C33 90.4345 49.5655 107 70 107ZM70 110C92.0914 110 110 92.0914 110 70C110 47.9086 92.0914 30 70 30C47.9086 30 30 47.9086 30 70C30 92.0914 47.9086 110 70 110Z" fill="#FEFCF9"/>
+<path opacity="0.1" d="M30.3491 72.8329C29.2236 58.3264 36.7381 44.4886 49.5 37.5L102.5 92L82 108L66.5393 107.684C47.5085 107.296 31.8775 92.532 30.4051 73.5543L30.3491 72.8329Z" fill="#FEFCF9"/>
+</svg>

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://chqlio02yg1gw"]
+
+[ext_resource type="Script" uid="uid://e3ou6xqp7gs2" path="res://components/rock/rock.gd" id="1_d4een"]
+[ext_resource type="Texture2D" uid="uid://cv4v8v3h2ntam" path="res://components/rock/assets/rocks/default.svg" id="1_qqpc3"]
+[ext_resource type="Texture2D" uid="uid://0q821occmqoc" path="res://components/rock/assets/shapes/Shape1/Default.svg" id="3_8p7u1"]
+
+[node name="Rock" type="TextureRect"]
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+texture = ExtResource("1_qqpc3")
+expand_mode = 5
+script = ExtResource("1_d4een")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="IconTextureRect" type="TextureRect" parent="CenterContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("3_8p7u1")

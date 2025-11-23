@@ -1,0 +1,22 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37 39.475C37 38.1081 38.1081 37 39.475 37L100.525 37C101.892 37 103 38.1081 103 39.475V100.525C103 101.892 101.892 103 100.525 103H39.475C38.1081 103 37 101.892 37 100.525V39.475Z" fill="#6BC6D0"/>
+<g opacity="0.5">
+<circle cx="94" cy="46" r="3" fill="black"/>
+<circle cx="94" cy="55" r="3" fill="black"/>
+<circle cx="94" cy="64" r="3" fill="black"/>
+<circle cx="94" cy="73" r="3" fill="black"/>
+<circle cx="94" cy="82" r="3" fill="black"/>
+<circle cx="85" cy="46" r="3" fill="black"/>
+<circle cx="85" cy="55" r="3" fill="black"/>
+<circle cx="85" cy="64" r="3" fill="black"/>
+<circle cx="85" cy="73" r="3" fill="black"/>
+<circle cx="76" cy="46" r="3" fill="black"/>
+<circle cx="76" cy="55" r="3" fill="black"/>
+<circle cx="76" cy="64" r="3" fill="black"/>
+<circle cx="67" cy="46" r="3" fill="black"/>
+<circle cx="58" cy="46" r="3" fill="black"/>
+<circle cx="67" cy="55" r="3" fill="black"/>
+</g>
+<path opacity="0.1" d="M39 39.825C39 39.3694 39.3694 39 39.825 39H46.5L102.5 95V102H39V39.825Z" fill="#FEFCF9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.975 39C39.4365 39 39 39.4365 39 39.975V101.025C39 101.563 39.4365 102 39.975 102H101.025C101.563 102 102 101.563 102 101.025V39.975C102 39.4365 101.563 39 101.025 39H39.975ZM36 39.975C36 37.7797 37.7797 36 39.975 36H101.025C103.22 36 105 37.7797 105 39.975V101.025C105 103.22 103.22 105 101.025 105H39.975C37.7797 105 36 103.22 36 101.025V39.975Z" fill="#FEFCF9"/>
+</svg>
