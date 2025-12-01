@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Back-Back"
+run/main_scene="uid://cbl8daw2tdtmp"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="uid://d4k6u8ae8ia0w"
 

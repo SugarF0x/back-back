@@ -4,6 +4,8 @@ class_name BackBackPreStage extends Control
 @onready var pre_stage_instructions: PreStageInstructions = %PreStageInstructions
 @onready var proceed_button: Button = %ProceedButton
 
+signal translated_out
+
 @export var problem_type: BackBackProblem.Type = BackBackProblem.Type.ONE_BACK :
 	set(value):
 		problem_type = value
@@ -40,7 +42,7 @@ func _translate_out(callback: Callable) -> void:
 	tween.tween_callback(callback)
 
 func _transit_to_stage() -> void:
-	_translate_out(func() -> void: print('finished!'))
+	_translate_out(translated_out.emit)
 
 func _register_origin() -> void:
 	button_origin = proceed_button.position
