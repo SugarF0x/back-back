@@ -1,6 +1,6 @@
 extends Node
 
-const SCALE_FACTOR: float = .9
+const SCALE_FACTOR: float = .95
 
 @onready var button: Button = get_parent()
 
