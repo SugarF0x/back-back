@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://0dov1wg01s5t"]
+[gd_scene load_steps=4 format=3 uid="uid://0dov1wg01s5t"]
 
+[ext_resource type="Script" uid="uid://dxjkcuphoyutk" path="res://views/pre_stage.gd" id="1_1gdts"]
 [ext_resource type="PackedScene" uid="uid://cg6xr40af7x8l" path="res://components/pre_stage_instructions/pre_stage_instructions.tscn" id="1_ewtw8"]
+[ext_resource type="PackedScene" uid="uid://cmm7irfcj524m" path="res://composables/button_animations.tscn" id="3_7gpcs"]
 
 [node name="PreStage" type="Control"]
 layout_mode = 3
@@ -9,6 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_1gdts")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -27,9 +30,13 @@ layout_mode = 2
 alignment = 1
 
 [node name="PreStageInstructions" parent="MarginContainer/VBoxContainer" instance=ExtResource("1_ewtw8")]
+unique_name_in_owner = true
 layout_mode = 2
 
-[node name="Button" type="Button" parent="MarginContainer"]
+[node name="ProceedButton" type="Button" parent="MarginContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 8
 text = "UNDERSTOOD"
+
+[node name="ButtonAnimations" parent="MarginContainer/ProceedButton" instance=ExtResource("3_7gpcs")]
